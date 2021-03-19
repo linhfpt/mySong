@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mySong</title>
+<!--    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">-->
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+<!--    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>-->
+<!--    <script src="vendor/bootstrap/js/popper.js"></script>-->
+<!--    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>-->
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div class="container-main">
+    <!-- SIDE MENU -->
+    <div class="side-menu">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <div class="brand-wrapper">
+                    <!-- Brand -->
+                    <div class="brand-name-wrapper">
+                        <img class="m-l-10" src="https://res.cloudinary.com/testthoima/image/upload/c_scale,w_120/v1616130389/Untitled__1_-removebg-preview_fzwf9o.png">
+                    </div>
+                </div>
+            </div>
+            <!-- MENU CONTENT -->
+            <div class="side-menu-container">
+                <ul class="nav navbar-nav">
+                    <li id="mySong" class="row m-t-20 m-b-20"><i class="column-1 fas fa-tasks fa-2x"></i><a class="column-2" href="#">Bài hát của bạn</a></li>
+                    <li id="addSong" class="row flex-row m-t-20 m-b-20"><i class="column-1 fas fa-plus-square fa-2x"></i><a class="column-2" href="#">Thêm bài hát</a></li>
+                    <li id="latestSong" class="row m-t-20 m-b-20"><i class="column-1 fas fa-globe-europe fa-2x"></i><a class="column-2" href="#">Bài hát mới nhất</a></li>
+                    <li id="memberInfo" class="row m-t-20 m-b-20"><i class="column-1 fas fa-id-card fa-2x"></i><a class="column-2" href="#">Thông tin của bạn</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- MAIN CONTENT -->
+    <div class="container-fluid">
+        <div class="search side-body sticky">
+            <i class="fas fa-search m-l-20 m-r-20"></i>
+            <input id="search" class="search-input" type="search" placeholder="Nhập từ khoá">
+            <button id="btn" type="button">Tìm kiếm</button>
+        </div>
+        <div  id="result" class="wrap-cnt side-body">
+            <div class="txt2"><h1>Welcome!</h1></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+</body>
+</html>

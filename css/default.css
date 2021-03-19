@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    font-family:sans-serif;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(https://thuam.com.vn/wp-content/uploads/2017/03/music-background-images-12.jpg) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.wrap-login{
+    position: absolute;
+    top: 5em;
+    left: 10%;
+    width: 80%;
+    height: 800px;
+    text-align: center;
+}
+.img-login{
+    margin: 0 auto;
+    text-align: center;
+}
+.img-login img {
+    max-height:10em;
+    max-width:10em;
+    margin-top: 1em;
+}
+.login-form{
+    background: white;
+    border-radius: 20px;
+}
+.login-form,.login-form-title{
+    display: block;
+}
+/*INPUT*/
+input[type="email"], input[type="password"]{
+    height: 40px;
+    width: 250px;
+}
+/* Đăng ký */
+.info-wrap{
+    display:inline-flex;
+}
+.register-wrap{
+    margin-left: 110px
+}
+/*BUTTON STYLE*/
+#buttons {
+    padding-top: 50px;
+    text-align: center;
+}
+.btn {
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+}
+
+.btn:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0 1px 0 0;
+}
+
+.blue {
+    background-color: #55acee;
+    box-shadow: 0 5px 0 0 #3C93D5;
+}
+
+.blue:hover {
+    background-color: #6FC6FF;
+}
